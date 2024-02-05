@@ -1,0 +1,2 @@
+ bool _isPasswordVisible = false;
+  suffixIcon: Icon(Icons.remove_red_eye),
