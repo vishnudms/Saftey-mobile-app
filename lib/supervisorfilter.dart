@@ -33,17 +33,17 @@ class Book {
 
   factory Book.fromJson(Map<String, dynamic> json) {
     return Book(
-      category: json['category'],
-      ticketNo: json['ticket_no'],
-      tokenId: json['token_id'],
-      date: json['date'],
-      options: json['options'],
-      location: json['location'],
-      time: json['time'],
-      status: json['status'],
-      details: json['detials'],
-      company: json['company'],
-      imgpt: json['image1'],
+      category: json['category'] ?? '[]',
+      ticketNo: json['ticket_no'] ?? '[]',
+      tokenId: json['token_id'] ?? '[]',
+      date: json['date'] ?? '[]',
+      options: json['options'] ?? '[]',
+      location: json['location'] ?? '[]',
+      time: json['time'] ?? '[]',
+      status: json['status'] ?? '[]',
+      details: json['detials'] ?? '[]',
+      company: json['company'] ?? '[]',
+      imgpt: json['image1'] ?? '[]',
     );
   }
 }
