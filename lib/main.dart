@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
               routes: {
                 '/home': (context) =>  HomePage(),
               },
+              
             ),
         designSize: const Size(360, 800));
   }

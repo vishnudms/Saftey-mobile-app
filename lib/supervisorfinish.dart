@@ -201,8 +201,7 @@ class _supervisorfinishState extends State<supervisorfinish> {
                         color: Colors.white),
                   ),
                   style: ElevatedButton.styleFrom(
-                      elevation: 5.0,
-                      primary: Color.fromARGB(255, 50, 204, 33),
+                      elevation: 5.0, backgroundColor: Color.fromARGB(255, 50, 204, 33),
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12.r))),
                 ),

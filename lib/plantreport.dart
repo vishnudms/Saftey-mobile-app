@@ -437,8 +437,7 @@ class _PlantReportState extends State<PlantReport> {
                     ),
                   ),
                   style: ElevatedButton.styleFrom(
-                    elevation: 5.0,
-                    primary: Color.fromARGB(255, 56, 54, 53),
+                    elevation: 5.0, backgroundColor: Color.fromARGB(255, 56, 54, 53),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12.r),
                     ),

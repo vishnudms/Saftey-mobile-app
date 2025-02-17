@@ -259,8 +259,7 @@ bool _isPasswordVisible1 = false;
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
-                    elevation: 5.0,
-                    primary: const Color.fromARGB(255, 237, 112, 55),
+                    elevation: 5.0, backgroundColor: const Color.fromARGB(255, 237, 112, 55),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12.r))),
               ),

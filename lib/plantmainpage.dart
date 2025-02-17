@@ -181,8 +181,7 @@ class _PlantMainPageState extends State<PlantMainPage> {
                         ],
                       )),
                       style: ElevatedButton.styleFrom(
-                          elevation: 5.0,
-                          primary: Color.fromARGB(255, 237, 112, 55),
+                          elevation: 5.0, backgroundColor: Color.fromARGB(255, 237, 112, 55),
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(12.r))),
                     ),
